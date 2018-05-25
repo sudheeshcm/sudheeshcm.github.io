@@ -182,12 +182,11 @@ p {
   position: relative;
   top: -2px;
 }
-
-.main-wrapper .summary {
-  line-height: 1.7;
-}
 .main-wrapper .section {
   margin-bottom: 60px;
+}
+.main-wrapper .summary {
+  line-height: 1.7;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
@@ -220,17 +219,16 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
-
-.project-tagline .project-tech-header {
-  font-weight: 500;
-  color: slategrey;
-  line-height: 2;
-}
 .main-wrapper .projects-section .intro {
   margin-bottom: 16px;
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 24px;
+}
+.main-wrapper .projects-section .project-tagline .project-tech-header {
+  font-weight: 500;
+  color: slategrey;
+  line-height: 2;
 }
 .skillset .item {
   margin-bottom: 15px;

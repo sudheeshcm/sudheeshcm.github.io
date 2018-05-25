@@ -1,8 +1,8 @@
 /* ======= Base ======= */
 body {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
     color: @text-color-secondary;
-    background: @smoky-white;
+    background: @smoky-grey;
     font-size: 14px;
     padding: 30px;
     -webkit-font-smoothing: antialiased;
@@ -56,7 +56,7 @@ p {
         color: #fff;
     }
     .name {
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 900;
         margin-top: 0;
         margin-bottom: 10px;
@@ -67,9 +67,12 @@ p {
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 0;
+        line-height: 1.7;
     }
     .profile {
         margin-bottom: 15px;
+        width: 100%;
+        border-radius: 50%;
     }
     .contact-list {
         .fa {
@@ -181,7 +184,9 @@ p {
     .section {
         margin-bottom: 60px;
     }
-    
+    .summary {
+        line-height: 1.7;
+    }
     .experiences-section {
         .item {
             margin-bottom: 30px;
@@ -203,13 +208,12 @@ p {
         position: absolute;
         right: 0;
         top: 0;
-        color: @text-grey;
+        color: @text-blue;
     }
     .company {
         margin-bottom: 10px;
-        color: @text-grey;
+        color: @text-blue;
     }
-    
     .project-title {
         font-size: 16px;
         font-weight: 500;
@@ -218,13 +222,17 @@ p {
     }
     .projects-section {
         .intro {
-            margin-bottom: 30px;
+            margin-bottom: 16px;
         }
         .item {
-            margin-bottom: 15px;
+            margin-bottom: 24px;
         }
+        .project-tagline .project-tech-header {
+            font-weight: 500;
+            color: slategrey;
+            line-height: 2;
+          }
     }
-    
 }
 
 
@@ -253,7 +261,6 @@ p {
 
 .footer {
     padding: 30px;
-    padding-top: 60px;
     .copyright {
         line-height: 1.6;
         color: @text-color-secondary;
